@@ -4,13 +4,11 @@ Authors: Ayush Samanta and Sanshubh Kanaujia
 Class XII Section A, DPS Panipat Refinery
 """
 
-# Standard library imports (allowed)
 import sys
 import os
 from datetime import datetime, timedelta
 from getpass import getpass
 
-# External: mysql-connector only (user must install mysql-connector-python)
 import mysql.connector
 from mysql.connector import errorcode
 
